@@ -62,7 +62,7 @@
     - `“_self”` : 해당 페이지 내에서 페이지 이동 (기본값)
     - `“_blank”` : 새로운 탭에서 해당 주소의 페이지 생성
 - img 태그
-  - 자체 닫기 태그(self-closing tag)`<img />`
+  - 자체 닫기 태그(self-closing tag)`<img />` : 
     이미지 태그 사이에 content가 없음
   - `src=””` : 이미지의 주소 삽입
 
