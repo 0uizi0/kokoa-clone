@@ -37,7 +37,7 @@
 </ul>
 ```
 
-![스크린샷 2022-09-07 오후 5.43.22.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6bc8aa10-fa2f-44ba-98e3-85c9d5dd11a0/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_2022-09-07_%EC%98%A4%ED%9B%84_5.43.22.png)
+![image](https://user-images.githubusercontent.com/102431281/188895094-4bbde8cc-94c9-4b9c-91f2-d275a1004a92.png)
 
 ```html
 <ol>
@@ -48,7 +48,7 @@
 </ol>
 ```
 
-![스크린샷 2022-09-07 오후 5.45.10.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5b4d9400-bc62-41b8-bd5d-f5dbd47b053c/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_2022-09-07_%EC%98%A4%ED%9B%84_5.45.10.png)
+![image](https://user-images.githubusercontent.com/102431281/188895272-b2c3a1a4-9d70-45e2-8e47-3898ac0b4c5a.png)
 
 ## Tag-Attributes
 
