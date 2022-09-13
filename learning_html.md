@@ -86,6 +86,21 @@
 
 ## Its-All-About-the-Head
 
+- meta 태그
+    - `<meta charset=”utf-8”>` : 브라우저에서 텍스트가 깨지지 않도록 설정
+    
+    - lang 태그
+        - 우리 사이트에서 사용하는 주된 언어가 무엇인지 말해줌
+        - 검색 엔진에게 도움을 줌
+    
+    - og 태그
+        - 콘텐츠의 요약 내용이 SNS에 게시되는데 최적화된 데이터로 가지고 갈 수 있도록 설정
+        - `og:title`, `og:type`, `og:url`, `og: image`, `og:description` …
+            
+            <img width="810" alt="%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202022-09-14%20%EC%98%A4%EC%A0%84%201 36 33" src="https://user-images.githubusercontent.com/102431281/189966065-fb4e3da8-9010-4664-bf39-ae2a3c8b53cd.png">
+            
+            <img width="273" alt="%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202022-09-14%20%EC%98%A4%EC%A0%84%201 37 07" src="https://user-images.githubusercontent.com/102431281/189966223-d90bbf74-20ec-46cb-9428-b0f9696681d4.png">
+
 ## More-Tags
 
 ## Form-Tags
