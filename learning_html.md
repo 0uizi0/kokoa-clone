@@ -103,6 +103,64 @@
 
 ## More-Tags
 
+<aside>
+💡 google에 프론트 검색 시 `mdn` 키워드를 붙여서 검색하기 추천
+⇒ **Mozilla developer Network** 사이트로 안내
+
+</aside>
+
+- `<pre>` : pre-formatted text, 타자기 글자처럼 입력됨
+    
+    <img width="159" alt="%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202022-09-14%20%EC%98%A4%EC%A0%84%201 50 44" src="https://user-images.githubusercontent.com/102431281/189967316-809a1084-1a69-4984-a043-407cd35b8e76.png">
+    
+- `<abbr>` :
+    - p 태그 안에 abbreviation에 title인 attribute를 작성
+    - 마우스를 KEJ에 올려주면 title에 작성한대로 text가 나옴
+    
+    ```html
+    <p>My name is <abbr title="Kim Eun Jeong">KEJ</abbr></p>
+    ```
+    
+    <img width="203" alt="%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202022-09-14%20%EC%98%A4%EC%A0%84%201 56 19" src="https://user-images.githubusercontent.com/102431281/189967337-dca9e065-7cf2-474f-99fa-924de95ee735.png">
+    
+- `<cite>` : 기울임체
+    
+    <img width="68" alt="%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202022-09-14%20%EC%98%A4%EC%A0%84%201 58 57" src="https://user-images.githubusercontent.com/102431281/189967411-a4487d28-2662-4e4f-bd46-fc37f75db763.png">
+    
+- `<mark>` : 형광펜
+    
+    ```html
+    <p>l like to live in <mark>South Korea</mark></p>
+    ```
+    
+    <img width="251" alt="%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202022-09-14%20%EC%98%A4%EC%A0%84%202 00 58" src="https://user-images.githubusercontent.com/102431281/189967449-72e39ebf-6a81-419c-962b-1ddba04b9696.png">
+    
+- `<sup>` : 글자 위치가 위로 (`<sub>`: 글자 위치가 아래로)
+    
+    ```html
+    <p>l like to live in <sup>South Korea</sup></p>
+    ```
+    
+    <img width="251" alt="%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202022-09-14%20%EC%98%A4%EC%A0%84%202 03 47" src="https://user-images.githubusercontent.com/102431281/189967506-c74bd384-2bcf-44a9-afd5-7e22f8130223.png">
+    
+- `<audio>` : controls와 src를 작성하면 해당 오디오가 연결됨
+    
+    ```html
+    <audio *controls*="enabled" *src*="https://interactive-examples.mdn.mozilla.net/media/cc0-audio/t-rex-roar.mp3"></audio>
+    ```
+    
+    <img width="309" alt="%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202022-09-14%20%EC%98%A4%EC%A0%84%202 09 27" src="https://user-images.githubusercontent.com/102431281/189967568-e9fb0189-dca3-4d6e-9a83-0b2593277b0e.png">
+    
+    - `<autoplay>` : 새로고침 시 자동으로 오디오 재생 설정 
+    (이 경우 controls=”enabled” 설정을 하지 않아도 작동됨)
+        
+        <aside>
+        💡 여기서 “enabled”와 ”true”는 같은 의미로 작동됨
+        
+        </aside>
+        
+    - `<muted>` : 음소거
+
 ## Form-Tags
 
 ## More-Tags-and-IDs
