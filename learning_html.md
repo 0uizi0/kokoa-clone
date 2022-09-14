@@ -266,4 +266,65 @@
 
 ## Semantic-HTML
 
+`semantic` : 문서를 보기만해도 그 의미를 짐작할 수 있는 것
+
+- div 태그
+    - 박스 기능
+    
+    ```html
+    <form>
+    	<div>
+    		<label for="website">Website</label>
+    		<input id="website" required placeholder="Name"type="url"/>
+    	</div>
+    	<div>
+    		<label for="website">Website</label>
+    		<input id="website" required placeholder="Name"type="url"/>
+    	</div>
+    	<input type="submit" value="Create Account"/> 
+    </form>
+    ```
+    
+    ⇒ 양 옆이 아닌 위아래로 위치가 변함.
+    
+    <img width="331" alt="%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202022-09-14%20%EC%98%A4%ED%9B%84%209 29 36" src="https://user-images.githubusercontent.com/102431281/190156943-382ae594-cb43-409c-bdc5-5d55ff801c42.png">
+    
+- header 태그
+    
+    <aside>
+    💡 `head` : 보이지 않는 태그
+    `header`: body 안에 포함되어있는 것. 
+    << head 태그와 다름 >>
+    
+    </aside>
+    
+    ```html
+    <body>
+            <header>
+                <h1>The Nico Times</h1>
+            </header>
+            <main>
+                <p>hello!</p>
+            </main>
+            <footer>
+                &copy;2020 N.C
+            </footer>
+    </body>
+    ```
+    
+    <img width="331" alt="%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202022-09-14%20%EC%98%A4%ED%9B%84%209 36 56" src="https://user-images.githubusercontent.com/102431281/190156950-09b3603e-cc83-46c6-9f7b-f818d0d338c2.png">
+    
+    - `div` 태그 대체 가능
+        - header, main, footer 부분을 모두 div로 바꿔도 결과는 동일
+        - 하지만 div 태그 사용 시, **코드 자체를 이해하는데 번거로움** 발생
+- span 태그
+    - 짧은 text를 위한 태그
+        
+        (문단일 경우 p 태그가 적합)
+        
+- section 태그
+    - 웹사이트의 일부분을 묘사
+- aside 태그
+    - main 태그에는 포함되지 않는 content를 위한 태그
+
 ## Recap
