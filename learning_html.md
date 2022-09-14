@@ -163,6 +163,83 @@
 
 ## Form-Tags
 
+- input 태그
+    
+    [ 입력 요소 - HTML: Hypertext Markup Language | MDN](https://developer.mozilla.org/ko/docs/Web/HTML/Element/Input)
+    
+    - `<input type="color"/>`
+        
+        <img width="256" alt="%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202022-09-14%20%EC%98%A4%ED%9B%84%203 21 53" src="https://user-images.githubusercontent.com/102431281/190082324-49d5f4a4-7168-4265-a7fd-1f45c74c8c27.png">
+        
+    - `<input type="password"/>`
+        
+        <img width="192" alt="%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202022-09-14%20%EC%98%A4%ED%9B%84%203 24 40" src="https://user-images.githubusercontent.com/102431281/190082333-852a8cd7-a511-4cae-8971-f8692d0226cf.png">
+        
+
+**⇒ 회원가입 창 생성해보기**
+
+```html
+<form>
+	<input placeholder="Name"type="text"/>
+	<input placeholder="Last Name" type="text"/>
+	<input placeholder="Username" type="text"/>
+	<input placeholder="Password" type="password"/>
+	<input type="submit" value="Create Account"/>
+</form>
+```
+
+<img width="826" alt="%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202022-09-14%20%EC%98%A4%ED%9B%84%203 28 31" src="https://user-images.githubusercontent.com/102431281/190082346-83e51717-a9f1-4865-9293-ca3066272a3c.png">
+
+- `disabled` : input을 클릭할 수 없음
+    
+    ```html
+    <input placeholder="Username" disabled type="text"/>
+    ```
+    
+    <img width="634" alt="%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202022-09-14%20%EC%98%A4%ED%9B%84%203 31 42" src="https://user-images.githubusercontent.com/102431281/190082362-d31d1756-9a41-45aa-b31b-5da8df5f5aa8.png">
+    
+- `required` : form 검증하기
+    
+    ```html
+    <form>
+    	<input required placeholder="Name"type="text"/>
+    	 <input required placeholder="Last Name" type="text"/>
+    	<input required placeholder="Username" type="text"/>
+    	<input required placeholder="Password" type="password"/>
+    	<input type="submit" value="Create Account"/>
+    </form>
+    ```
+    
+    - 입력란을 **비운** 상태로 submit 할 경우
+        
+        <img width="634" alt="%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202022-09-14%20%EC%98%A4%ED%9B%84%203 35 54" src="https://user-images.githubusercontent.com/102431281/190082387-a7c42964-f8c2-4747-87a1-7ee2fc7172dd.png">
+        
+    - 입력란을 **다 채운** 상태로 submit 할 경우
+        
+        <img width="620" alt="%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202022-09-14%20%EC%98%A4%ED%9B%84%203 38 13" src="https://user-images.githubusercontent.com/102431281/190082417-f60f07b0-bf8e-4a0b-93e8-fd65d37e10cf.png">
+        
+- `minlength` : input에 넣는 최소글자 수
+    
+    ```html
+    <input required placeholder="Password" minlength="10" type="password"/>
+    ```
+    
+    <img width="715" alt="%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202022-09-14%20%EC%98%A4%ED%9B%84%203 40 23" src="https://user-images.githubusercontent.com/102431281/190082426-63719984-1f38-47ae-a021-6bd956ebf02b.png">
+    
+- `<input type="file"/>`
+    
+    <img width="1317" alt="%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202022-09-14%20%EC%98%A4%ED%9B%84%203 43 54" src="https://user-images.githubusercontent.com/102431281/190082441-d72cfdc2-e668-486b-993b-cb647af12605.png">
+    
+    - accept : 특정 file의 유형들만 선택하게 끔하는 기능 제공
+        
+        ```html
+        <!--이미지 파일이면 전부 선택 가능 (png, jpg, jpeg ... )-->
+        <input type="file" accept="image/*"/>
+        ```
+        
+        <img width="527" alt="%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202022-09-14%20%EC%98%A4%ED%9B%84%203 48 22" src="https://user-images.githubusercontent.com/102431281/190082464-8876007a-7a0c-431e-adb5-011eca9819ac.png">
+
+
 ## More-Tags-and-IDs
 
 ## Semantic-HTML
