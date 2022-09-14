@@ -242,6 +242,28 @@
 
 ## More-Tags-and-IDs
 
+- label 태그
+    - input과 함께 사용됨
+        
+        ⇒ `input id`와 `label for`에 들어가는 값은 동일해야함
+        
+    
+    ```html
+    <form>
+    	<label for="website">Website</label>
+    	<input id="website" required placeholder="Name"type="url"/>
+    
+    	<input type="submit" value="Create Account"/>
+    </form>
+    ```
+    
+    <img width="331" alt="%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202022-09-14%20%EC%98%A4%ED%9B%84%209 23 12" src="https://user-images.githubusercontent.com/102431281/190152539-6ea6634a-e18d-4af6-88ac-defb6c428e57.png">
+    
+    - `id`
+        - body 안에 어떤 태그에든 넣을 수 있는 attribute
+        - 태그 하나 당 하나의 id만 가질 수 있음
+        ⇒ **id 값은 고유해야함**. 그렇지 않은 경우 에러 발생
+
 ## Semantic-HTML
 
 ## Recap
