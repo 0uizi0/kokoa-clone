@@ -18,8 +18,6 @@
 
 - [Semantic HTML](#Semantic-HTML)
 
-- [Recap](#Recap)
-
 ## Our-First-HTML-Tag
 
 ## More-Tags-and-Prettier
@@ -327,4 +325,3 @@
 - aside 태그
     - main 태그에는 포함되지 않는 content를 위한 태그
 
-## Recap
