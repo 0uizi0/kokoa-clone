@@ -6,7 +6,7 @@
 
 - `What is JavaScript`
 
-- `Recap`
+- `Recap`  
 
 ## <a href="./learning_html.md">② HTML 학습</a>
 
