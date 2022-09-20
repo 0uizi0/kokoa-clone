@@ -40,9 +40,7 @@
 
 - `Blocks and Inlines`
 
-- `Margin Part One`
-
-- `Margin Part Two`
+- `Margin Part`
 
 - `Paddings and IDs`
 
